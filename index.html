@@ -1,136 +1,176 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guild Wars 2 - RAIDS</title>
-    <link rel="stylesheet" href="css/master.css">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guild Wars 2 - RAIDS</title>
+        <link rel="stylesheet" href="css/master.css">
 
-</head>
-<body>
-    <div class = "container">
-            <div class="header" id="pgTop"></div>
-            <img id="header_logo" src="res/logo.png" alt="No image found">
-            <header class="header_txt">
-                <h1>GUILD WARS 2 RAID OVERVIEW</h1>
-                
-            </header>
+    </head>
+    <body>
+        <div class = "container">
+                <div class="header" id="pgTop"></div>
+                <img id="header_logo" src="res/logo.png" alt="No image found">
+                <header class="header_txt">
+                    <h1>GUILD WARS 2 RAID OVERVIEW</h1>
+                    
+                </header>
 
-            <nav class="navbar" id="navbar">
+                <nav class="navbar" id="navbar">
 
-                <a href="#pgTop"><button class="navBtn">Home</button></a>
+                    <a href="#pgTop"><button class="navBtn">Home</button></a>
+                    
+                    <div class="dropDown">
+                        <a href="#wing1"><button class="navBtn">Spirit Vale</button></a>
+                        <div class="dropDownContent">
+                            <a href="#vg"><img src="res/vg_ico.png" alt="VG_ICO" class="navBossIco">Vale Guardian</a>
+                            <a href="#gors"><img src="res/gorse_ico.png" alt="VG_ICO" class="navBossIco">Gorseval the Multifarious</a>
+                            <a href="#"><img src="res/sab_ico.png" alt="VG_ICO" class="navBossIco">Sabetha the Saboteur</a>
+                        </div>
+                    
+                    </div><div class="dropDown">
+                        <a href="#"><button class="navBtn">Salvation Pass</button></a>
+                        <div class="dropDownContent">
+                            <a href="#">Slothasor</a>
+                            <a href="#">Bandit Trio</a>
+                            <a href="#">Matthias Gabrel</a>
+                        </div>
+                    
+                    </div><div class="dropDown">
+                        <a href="#"><button class="navBtn">Stronghold of Faithful</button></a>
+                        <div class="dropDownContent">
+                            <a href="#">Keep Construct</a>
+                            <a href="#">Xera</a>
+                        </div>
+                    
+                    </div><div class="dropDown">
+                        <a href="#"><button class="navBtn">Bastion of Penitent</button></a>
+                        <div class="dropDownContent">
+                            <a href="#">Cairn the Indomitable</a>
+                            <a href="#">Mursaat Overseer</a>
+                            <a href="#">Samarog</a>
+                            <a href="#">Deimos</a>
+                        </div>
+                </nav>
                 
-                <div class="dropDown">
-                    <a href="#"><button class="navBtn">Spirit Vale</button></a>
-                    <div class="dropDownContent">
-                        <a href="#"><img src="res/vg_ico.png" alt="VG_ICO" class="navBossIco">Vale Guardian</a>
-                        <a href="#"><img src="res/gorse_ico.png" alt="VG_ICO" class="navBossIco">Gorseval the Multifarious</a>
-                        <a href="#"><img src="res/sab_ico.png" alt="VG_ICO" class="navBossIco">Sabetha the Saboteur</a>
+                <div class = "content">
+                    <div class="about">
+                        <h2 class="parHeader">Co josu to vlastně raidy?</h2>
+                        <div class=" content parContent" id="homeTextAbout"><img src="res\logo.png" alt="idk" id = "logoHome">
+                            <div class="parContentText">Je to end-game aktivita, která je obsažena ve většině her ze žánru MMORPG. Ve hře Guild Wars 2 jsou to lokace, ve kterých se nacházejí 3-5 náročných bossů, většinou potřebujících 10 hráčů na jejich poražení.
+                            Tito bossové mají taktéž náročné mechaniky, které vyžadují po hráčích jejich zvládnutí pro úspěšné zabití bosse. Proto je tato aktivita jen pro hráče, kteří do hry investovali dost času a chtějí dokázat, co umí.
+                            Protože je tato aktivita náročná na hraní, musí zde být někdo, kdo bude hráče koordinovat. V Guild Wars 2 se této osobě říka Squad Leader (raid sqad je složen z 10 lidí) a měl by znát všechny mechaniky bossů toho raidu, který se 
+                            nyní snaží vyčistit.</div>
+                        </div>
                     </div>
-                
-                </div><div class="dropDown">
-                    <a href="#"><button class="navBtn">Salvation Pass</button></a>
-                    <div class="dropDownContent">
-                        <a href="#">Slothasor</a>
-                        <a href="#">Bandit Trio</a>
-                        <a href="#">Matthias Gabrel</a>
-                    </div>
-                
-                </div><div class="dropDown">
-                    <a href="#"><button class="navBtn">Stronghold of Faithful</button></a>
-                    <div class="dropDownContent">
-                        <a href="#">Keep Construct</a>
-                        <a href="#">Xera</a>
-                    </div>
-                
-                </div><div class="dropDown">
-                    <a href="#"><button class="navBtn">Bastion of Penitent</button></a>
-                    <div class="dropDownContent">
-                        <a href="#">Cairn the Indomitable</a>
-                        <a href="#">Mursaat Overseer</a>
-                        <a href="#">Samarog</a>
-                        <a href="#">Deimos</a>
-                    </div>
-                </div><div class="dropDown">
-                    <a href="#"><button class="navBtn">Hall of Chains</button></a>
-                    <div class="dropDownContent">
-                        <a href="#">Soulless Horror</a>
-                        <a href="#">Statues of Grenth</a>
-                        <a href="#">Dhuum</a>
-                    </div>
-                
-                </div><div class="dropDown">
-                    <a href="#"><button class="navBtn">Mythwright Gambit</button></a>
-                    <div class="dropDownContent">
-                        <a href="#">Conjured Amalgamate</a>
-                        <a href="#">Twin Largos</a>
-                        <a href="#">Qadim</a>
-                    </div>
-                
-                </div><div class="dropDown">
-                    <a href="#"><button class="navBtn">The Key of Ahdashim</button></a>
-                    <div class="dropDownContent">
-                        <a href="#">Cardinal Sabir</a>
-                        <a href="#">Cardinal Adina</a>
-                        <a href="#">Qadim the Peerless</a>
-                    </div>
-                </div>
-
-            </nav>
-            
-            <div class = "content">
-                <div class="about">
-                    <h2 class="parHeader">Co josu to vlastně raidy?</h2>
-                    <p class=" content parContent" id="homeTextAbout"><img src="res\logo.png" alt="idk" id = "logoHome"><span class="parContentText">Je to end-game aktivita, která je obsažena ve většině her ze žánru MMORPG. Ve hře Guild Wars 2 jsou to lokace, ve kterých se nacházejí 3-5 náročných bossů, většinou potřebujících 10 hráčů na jejich poražení.
-                        Tito bossové mají taktéž náročné mechaniky, které vyžadují po hráčích jejich zvládnutí pro úspěšné zabití bosse. Proto je tato aktivita jen pro hráče, kteří do hry investovali dost času a chtějí dokázat, co umí.
-                        Protože je tato aktivita náročná na hraní, musí zde být někdo, kdo bude hráče koordinovat. V Guild Wars 2 se této osobě říka Squad Leader (raid sqad je složen z 10 lidí) a měl by znát všechny mechaniky bossů toho raidu, který se 
-                        nyní snaží vyčistit.</span>
-                    </p>
-                    </div>
-                    <h2 class="parHeader">Co je potřeba na raidění</h2>
-                    <div class=" content parContent" id="homeTextAbout"><img src="res\lvl80.png" alt="idk" id = "imgMaxLvl">
-                        <div class="parContentText">Většina si myslí, že podmínky pro raidění jsou vysoké.
-                            Ale je tomu opačně. Pro možnost účasti v raidech jsou potřeba tyto důležité věci:
-                            <div class = "padding25">
-                                <ul >
-                                    <li>Maximální úroveň - LvL 80</li>
-                                    <li>Expanze (Heart of Thorns - W1-W4, Path of Fire - W5-W7)</li>
-                                    <li>Build podle stránek s <a href="https://snowcrows.com/" class="linkInContent" target="_blank">raid buildy (Alespon exotické kvality)</a></li>
-                                    <li>Znasloti bossů daného wingu</li>
-                                </ul>
-                            </div>                        
+                    <div class="reqirements"> 
+                        <h2 class="parHeader">Co je potřeba na raidění</h2>
+                        <div class=" content parContent"><img src="res\lvl80.png" alt="idk" id = "imgMaxLvl">
+                            <div class="parContentText">Většina si myslí, že podmínky pro raidění jsou vysoké.
+                                Ale je tomu opačně. Pro možnost účasti v raidech jsou potřeba tyto důležité věci:
+                                <div class = "padding25">
+                                    <ul >
+                                        <li>Maximální úroveň - LvL 80</li>
+                                        <li>Expanze (Heart of Thorns - W1-W4, Path of Fire - W5-W7)</li>
+                                        <li>Build podle stránek s <a href="https://snowcrows.com/" class="linkInContent" target="_blank">raid buildy (Alespon exotické kvality)</a></li>
+                                        <li>Znasloti bossů daného wingu</li>
+                                        <li>Pevné nervy a odhodlanost se učit</li>
+                                    </ul>
+                                </div>                        
+                            </div>
                         </div>
                     </div>
                 
-                <div class="bigSpace"></div>
+                    
+                    <div class="bigSpace"></div>
 
-                <div class = "wingContent">
-                    <h2 class="parHeader">W1</h2>
-                    <p class = "content parContent"></p>
-                </div>
-                <div class = "wingContent">
-                    <h2 class="parHeader">W2</h2>
-                </div>
-                <div class = "wingContent">
-                    <h2 class="parHeader">W3</h2>
-                </div>
-                <div class = "wingContent">
-                    <h2 class="parHeader">W4</h2>
-                </div>
-                <div class = "wingContent">
-                    <h2 class="parHeader">W5</h2>
-                </div>
-                <div class = "wingContent">
-                    <h2 class="parHeader">W6</h2>
-                </div>
-                <div class = "wingContent">
-                    <h2 class="parHeader">W7</h2>
-                </div>
-            </div>
+                    <div id="wing1">
+                        <h2 class="parHeader" id = "vg">Spirit Vale</h2>
+                        <div class=" content parContent" id="homeTextAbout"><img src="res\vg_posture.png" alt="idk" class="postureImgRight">
+                            <h2>Vale Guardian</h2>
+                            <div class="parContentText">Tento raid boss je prvni prekazkou pro vetsinu zacinajicich raideru. 
+                                Vale Guardian (VG) ma 3 faze a 2 mezifaze. Arena, na ktere se fighti je rozdelena na 3 tretiny tvorici 
+                                takovou "pizzu".
+                                <br>
+                                Pred zacatkem samotneho encounteru se hraci musi dostat k platforme. V ceste stoji 3 mensi guardiani ve 3 ruznych
+                                barvach. Cerveny spawnuje kolem sebe "seekery", coz jsou cervene kolecka kolem kterych je AoE field, ktery dava
+                                periodicky cca 4000 HP/s. Cerveny boss jde zabit pouze Condition DPS hraci. Modry vytvori obcas zeleny kruh na zemi.
+                                Pokud v tomot kruhu nestoji 4 a vice hracu, da celemu raidu 80% HP Dmg. Modry musi ztratit Boony, aby se mu mohl davat DPS.
+                                Zeleny spawnuje teleporty, ktere po 3s exploduji a teleportuji hrace na nahodnou lokaci na platforme.
+                                <br>
+                                Samotny raid encounter obsahuje pote vsechny tyto mechaniky predeslych mensich guardianu s pridanou mechanikou
+                                dane faze bosse. Po prvni fazi (66%), ktera je bez pridane mechaniky se ve trech rozich obevi mensi barevni guardiani.
+                                Po jejich zabiti se dostane do faze druhe, kde bude zapalena prave jedna tretina cele areny. Tato zapalena cast rotuje po
+                                smeru hod. rucicek. Po druhe fazi (33%) je opet mezifaze a nasleduje treti faze, kde sviti 2 tretiny <span id="gors"></span>
+                            </div>
+                        </div>
+                       
+                        <div class=" content parContent"> 
+                            <h2>Gorseval the Multifarious</h2>
+                            <img src="res\gorse_posture.jpg" alt="idk" class="postureImgLeft">
+                            <div class="parContentText">Tento raid boss je technicky vzato pouze DPS check. Jeho mechaniky nejsou prilis narocne a 
+                                pokud ma clovek dostatecne DPS, je ho schopen zabit bez narocnejsich mechanik. Jeho nejdulezitejsi mechanikou je, kdyz 
+                                zacne busit do zeme. Potom co domlati,                                                        
+                            </div>
+                        </div>
+                        <div class=" content parContent" id="homeTextAbout"><img src="res\vg_posture.png" alt="idk" class="postureImgRight">
+                            <h2 id = "vg">Vale Guardian</h2>
+                            <div class="parContentText">Tento raid boss je prvni prekazkou pro vetsinu zacinajicich raideru. 
+                                Vale Guardian (VG) ma 3 faze a 2 mezifaze. Arena, na ktere se fighti je rozdelena na 3 tretiny tvorici 
+                                takovou "pizzu".
+                                <br>
+                                Pred zacatkem samotneho encounteru se hraci musi dostat k platforme. V ceste stoji 3 mensi guardiani ve 3 ruznych
+                                barvach. Cerveny spawnuje kolem sebe "seekery", coz jsou cervene kolecka kolem kterych je AoE field, ktery dava
+                                periodicky cca 4000 HP/s. Cerveny boss jde zabit pouze Condition DPS hraci. Modry vytvori obcas zeleny kruh na zemi.
+                                Pokud v tomot kruhu nestoji 4 a vice hracu, da celemu raidu 80% HP Dmg. Modry musi ztratit Boony, aby se mu mohl davat DPS.
+                                Zeleny spawnuje teleporty, ktere po 3s exploduji a teleportuji hrace na nahodnou lokaci na platforme.
+                                <br>
+                                Samotny raid encounter obsahuje pote vsechny tyto mechaniky predeslych mensich guardianu s pridanou mechanikou
+                                dane faze bosse. Po prvni fazi (66%), ktera je bez pridane mechaniky se ve trech rozich obevi mensi barevni guardiani.
+                                Po jejich zabiti se dostane do faze druhe, kde bude zapalena prave jedna tretina cele areny. Tato zapalena cast rotuje po
+                                smeru hod. rucicek. Po druhe fazi (33%) je opet mezifaze a nasleduje treti faze, kde sviti 2 tretiny.
+                            </div>
+                        </div>
+                    </div>
 
-    </div>
-    
-<script src="javascript/sticky_nav.js"></script>
-</body>
-</html>
+
+                    <div class="W2">
+                        <h2 class="parHeader">Co josu to vlastně raidy?</h2>
+                        <div class=" content parContent" id="homeTextAbout"><img src="res\logo.png" alt="idk" id = "logoHome">
+                            <div class="parContentText">Je to end-game aktivita, která je obsažena ve většině her ze žánru MMORPG. Ve hře Guild Wars 2 jsou to lokace, ve kterých se nacházejí 3-5 náročných bossů, většinou potřebujících 10 hráčů na jejich poražení.
+                                Tito bossové mají taktéž náročné mechaniky, které vyžadují po hráčích jejich zvládnutí pro úspěšné zabití bosse. Proto je tato aktivita jen pro hráče, kteří do hry investovali dost času a chtějí dokázat, co umí.
+                                Protože je tato aktivita náročná na hraní, musí zde být někdo, kdo bude hráče koordinovat. V Guild Wars 2 se této osobě říka Squad Leader (raid sqad je složen z 10 lidí) a měl by znát všechny mechaniky bossů toho raidu, který se 
+                                nyní snaží vyčistit.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="W3">
+                        <h2 class="parHeader">Co josu to vlastně raidy?</h2>
+                        <div class=" content parContent" id="homeTextAbout"><img src="res\logo.png" alt="idk" id = "logoHome">
+                            <div class="parContentText">Je to end-game aktivita, která je obsažena ve většině her ze žánru MMORPG. Ve hře Guild Wars 2 jsou to lokace, ve kterých se nacházejí 3-5 náročných bossů, většinou potřebujících 10 hráčů na jejich poražení.
+                            Tito bossové mají taktéž náročné mechaniky, které vyžadují po hráčích jejich zvládnutí pro úspěšné zabití bosse. Proto je tato aktivita jen pro hráče, kteří do hry investovali dost času a chtějí dokázat, co umí.
+                            Protože je tato aktivita náročná na hraní, musí zde být někdo, kdo bude hráče koordinovat. V Guild Wars 2 se této osobě říka Squad Leader (raid sqad je složen z 10 lidí) a měl by znát všechny mechaniky bossů toho raidu, který se 
+                            nyní snaží vyčistit.</div>
+                        </div>
+                    </div>
+
+
+                    <div class="W4">
+                        <h2 class="parHeader">Co josu to vlastně raidy?</h2>
+                        <div class=" content parContent" id="homeTextAbout"><img src="res\logo.png" alt="idk" id = "logoHome">
+                            <div class="parContentText">Je to end-game aktivita, která je obsažena ve většině her ze žánru MMORPG. Ve hře Guild Wars 2 jsou to lokace, ve kterých se nacházejí 3-5 náročných bossů, většinou potřebujících 10 hráčů na jejich poražení.
+                            Tito bossové mají taktéž náročné mechaniky, které vyžadují po hráčích jejich zvládnutí pro úspěšné zabití bosse. Proto je tato aktivita jen pro hráče, kteří do hry investovali dost času a chtějí dokázat, co umí.
+                            Protože je tato aktivita náročná na hraní, musí zde být někdo, kdo bude hráče koordinovat. V Guild Wars 2 se této osobě říka Squad Leader (raid sqad je složen z 10 lidí) a měl by znát všechny mechaniky bossů toho raidu, který se 
+                            nyní snaží vyčistit.</div>
+                        </div>
+                    </div>
+                    
+
+        </div>
+        
+    <script src="javascript/sticky_nav.js"></script>
+    </body>
+    </html>
