@@ -218,3 +218,18 @@ nav{
     float: left;
     margin-left: 15px;
 }
+
+.postureImgRight{
+    float: right;
+    height: 300px;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 70px;
+}
+
+.postureImgLeft{
+    float: left;
+    padding-right: 50px;
+    width: 400px;
+    height: 350px;
+}
